@@ -1,0 +1,53 @@
+#calculator {
+  max-width: 400px;
+  margin: 5vh auto 0 auto;
+  box-shadow: 0px 0px 40px 15px rgba(153, 153, 153, 1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  font-family: Georgia, sans-serif;
+}
+
+#screen {
+  height: 70px;
+  line-height: 70px;
+  padding: 16px 8px;
+  font-size: 24px;
+  text-align: right;
+  background-color: aliceblue;
+}
+
+#buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border-bottom: 1px solid grey;
+  border-left: 1px solid grey;
+}
+
+#buttons > div {
+  border-top: 1px solid grey;
+  border-right: 1px solid grey;
+}
+
+.button {
+  line-height: 100px;
+  text-align: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: lightblue;
+}
+
+#equal {
+  background-color: blue;
+  color: white;
+}
+
+#equal:hover {
+  background-color: rgb(32, 32, 167);
+  color: white;
+}
